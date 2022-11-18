@@ -1,0 +1,10 @@
+# Plant Dataset Challenge dataset 2022
+
+train: /data/yolo_annos/leaves/train/images
+val: /data/yolo_annos/leaves/val/images
+test: /data/yolo_annos/leaves/test/images
+
+nc: 1
+
+# class names
+names: ['leaf']

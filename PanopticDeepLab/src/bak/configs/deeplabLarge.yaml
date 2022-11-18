@@ -1,0 +1,24 @@
+experiment:
+    id: deeplabLarge 
+    seed: 42
+
+checkpoint: '/logs/checkpoints/maskrcnn/'
+tensorboard: '/logs/tensorboard/maskrcnn/'
+
+##Data
+data:
+    train: '/data'
+    val: '/data'
+
+##Training
+train:
+    n_gpus: 1
+    workers: 0 
+    max_epoch: 500
+    batch_size: 4
+    n_classes: 3
+    overfit: False
+
+val:
+    nms_th: 0.4
+    prob_th: 0.6

@@ -1,0 +1,5 @@
+seaborn
+thop
+opencv-python==3.4.11.45
+scipy
+tensorboard

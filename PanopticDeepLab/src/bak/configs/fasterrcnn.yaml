@@ -1,0 +1,20 @@
+experiment:
+    id: fasterrcnn 
+    seed: 1324
+
+##Data
+data:
+    path: '/home/federico/Projects/data_challenge/students/FM_Joshi_project/batch3_train_2_ph_cka-2020-06-05/patches/Iteration1'
+
+##Training
+train:
+    n_gpus: 1
+    workers: 0 
+    max_epoch: 500
+    batch_size: 8
+    n_classes: 3
+    overfit: False
+
+val:
+    nms_th: 0.4
+    prob_th: 0.6

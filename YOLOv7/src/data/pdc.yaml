@@ -1,0 +1,10 @@
+# Plant Dataset Challenge dataset 2022
+
+train: /data/yolo_annos/train/images
+val: /data/yolo_annos/val/images
+test: /data/yolo_annos/test/images
+
+nc: 3 
+
+# class names
+names: ['soil', 'crop', 'weed']
